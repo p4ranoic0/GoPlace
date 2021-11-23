@@ -1,0 +1,13 @@
+#platform :ios, '15.0'
+
+target 'GoPlaceCliente' do
+ 
+  use_frameworks!
+
+  pod 'Firebase'
+  pod 'FirebaseFirestore'
+  pod 'FirebaseCore'
+  pod 'Firebase/Auth'
+  #pod 'Firebase/Messaging'
+  #pod 'GoogleSignIn'
+end
